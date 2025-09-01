@@ -230,3 +230,16 @@ h5{
    display: flex;
    
 }
+
+.elemento::before {
+  content: "";
+  position: absolute;
+  top: -35%;
+  right: 60%;
+  transform: translate(-10%, -10%); 
+  width: 940px;
+  height: 940px;
+  background: radial-gradient(circle, rgba(0, 100, 255, 0.2), transparent 80%);
+  border-radius: 50%;
+  z-index: -1; /* fica atrás do conteúdo */
+}
